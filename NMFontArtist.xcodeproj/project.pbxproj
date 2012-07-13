@@ -10,6 +10,7 @@
 		7D29460B15AFAB93006733A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D29460A15AFAB93006733A7 /* Foundation.framework */; };
 		7D29461015AFAB93006733A7 /* NMFontArtist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D29460F15AFAB93006733A7 /* NMFontArtist.h */; };
 		7D29461215AFAB93006733A7 /* NMFontArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29461115AFAB93006733A7 /* NMFontArtist.m */; };
+		7D29461E15AFAC7E006733A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D29461C15AFAC64006733A7 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		7D29460E15AFAB93006733A7 /* NMFontArtist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMFontArtist-Prefix.pch"; sourceTree = "<group>"; };
 		7D29460F15AFAB93006733A7 /* NMFontArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMFontArtist.h; sourceTree = "<group>"; };
 		7D29461115AFAB93006733A7 /* NMFontArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMFontArtist.m; sourceTree = "<group>"; };
+		7D29461C15AFAC64006733A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D29461E15AFAC7E006733A7 /* UIKit.framework in Frameworks */,
 				7D29460B15AFAB93006733A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		7D29460915AFAB93006733A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D29461C15AFAC64006733A7 /* UIKit.framework */,
 				7D29460A15AFAB93006733A7 /* Foundation.framework */,
 			);
 			name = Frameworks;
