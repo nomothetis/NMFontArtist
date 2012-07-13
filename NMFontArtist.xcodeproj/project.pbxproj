@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D29460B15AFAB93006733A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D29460A15AFAB93006733A7 /* Foundation.framework */; };
+		7D29461015AFAB93006733A7 /* NMFontArtist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D29460F15AFAB93006733A7 /* NMFontArtist.h */; };
+		7D29461215AFAB93006733A7 /* NMFontArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D29461115AFAB93006733A7 /* NMFontArtist.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D29460515AFAB93006733A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				7D29461015AFAB93006733A7 /* NMFontArtist.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D29460715AFAB93006733A7 /* libNMFontArtist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNMFontArtist.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D29460A15AFAB93006733A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D29460E15AFAB93006733A7 /* NMFontArtist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMFontArtist-Prefix.pch"; sourceTree = "<group>"; };
+		7D29460F15AFAB93006733A7 /* NMFontArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMFontArtist.h; sourceTree = "<group>"; };
+		7D29461115AFAB93006733A7 /* NMFontArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMFontArtist.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D29460415AFAB93006733A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D29460B15AFAB93006733A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D2945FC15AFAB93006733A7 = {
+			isa = PBXGroup;
+			children = (
+				7D29460C15AFAB93006733A7 /* NMFontArtist */,
+				7D29460915AFAB93006733A7 /* Frameworks */,
+				7D29460815AFAB93006733A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D29460815AFAB93006733A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D29460715AFAB93006733A7 /* libNMFontArtist.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D29460915AFAB93006733A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D29460A15AFAB93006733A7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D29460C15AFAB93006733A7 /* NMFontArtist */ = {
+			isa = PBXGroup;
+			children = (
+				7D29460F15AFAB93006733A7 /* NMFontArtist.h */,
+				7D29461115AFAB93006733A7 /* NMFontArtist.m */,
+				7D29460D15AFAB93006733A7 /* Supporting Files */,
+			);
+			path = NMFontArtist;
+			sourceTree = "<group>";
+		};
+		7D29460D15AFAB93006733A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D29460E15AFAB93006733A7 /* NMFontArtist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D29460615AFAB93006733A7 /* NMFontArtist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D29461515AFAB93006733A7 /* Build configuration list for PBXNativeTarget "NMFontArtist" */;
+			buildPhases = (
+				7D29460315AFAB93006733A7 /* Sources */,
+				7D29460415AFAB93006733A7 /* Frameworks */,
+				7D29460515AFAB93006733A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMFontArtist;
+			productName = NMFontArtist;
+			productReference = 7D29460715AFAB93006733A7 /* libNMFontArtist.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D2945FE15AFAB93006733A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = nomothetis;
+			};
+			buildConfigurationList = 7D29460115AFAB93006733A7 /* Build configuration list for PBXProject "NMFontArtist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D2945FC15AFAB93006733A7;
+			productRefGroup = 7D29460815AFAB93006733A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D29460615AFAB93006733A7 /* NMFontArtist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D29460315AFAB93006733A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D29461215AFAB93006733A7 /* NMFontArtist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D29461315AFAB93006733A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D29461415AFAB93006733A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D29461615AFAB93006733A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NMFontArtist.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NMFontArtist/NMFontArtist-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D29461715AFAB93006733A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NMFontArtist.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NMFontArtist/NMFontArtist-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D29460115AFAB93006733A7 /* Build configuration list for PBXProject "NMFontArtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D29461315AFAB93006733A7 /* Debug */,
+				7D29461415AFAB93006733A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D29461515AFAB93006733A7 /* Build configuration list for PBXNativeTarget "NMFontArtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D29461615AFAB93006733A7 /* Debug */,
+				7D29461715AFAB93006733A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D2945FE15AFAB93006733A7 /* Project object */;
+}
