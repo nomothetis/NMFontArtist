@@ -16,7 +16,7 @@
  
  Credit to Rob Mayoff for ceating it and distributing it. I have merely added the comments,
  mostly to clarify for myself what's going on. As I am not an expert, they reflect my best current
- understanding, and may need to be revised. Use for learning at your own peril
+ understanding, and may need to be revised. Use for learning at your own peril.
  */
 
 @implementation NMFontArtist
@@ -24,7 +24,7 @@
 /* This mask is created for two purposes:
  
  1. To use to draw the full string.
- 2. To draw the inner shadow of the strong.
+ 2. To draw the inner shadow of the string.
  
  The UIImage is simply a convenient vessel for the CGImage memory-wise.
  
