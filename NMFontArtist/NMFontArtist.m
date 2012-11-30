@@ -35,7 +35,7 @@
     /* In order to account for retina displays. */
     CGFloat scale = [UIScreen mainScreen].scale;
     
-    /* The color space is grey because the shadow will no be in color. */
+    /* The color space is grey because the shadow will not be in color. */
     CGColorSpaceRef greySpace = CGColorSpaceCreateDeviceGray();
     
     CGContextRef context = CGBitmapContextCreate(NULL, // Don't need to draw anywhere specific.
